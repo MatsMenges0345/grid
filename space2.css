@@ -2,45 +2,96 @@
 			background-image: url(bg.png);
 			font-family: Tahoma;
 		}
-		
+
 		#frame {
 			background-color: rgba(255,200,200,0.3);
+			margin: 0 auto;
+			width: 1060px;
+			height: 545px;
 		}
-		
+
+		p{
+			padding-bottom: 5px;
+		}
+
 		header nav ul {
 			list-style-type: none;
 			background-color: rgba(255,255,200,0.3);
+			margin-top: 20px;
+			padding-left: 0;
 		}
-		
+
 		#content {
-			
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
 		}
-		
+
 		nav li {
-			
+		display: inline-block;
 		}
-		
+
 		nav li a {
+			text-decoration: none;
+			display: inline-block;
+			font-weight: bolder;
+			padding-right: 10px;
+			padding-left: 10px;
+			padding-top: 10px;
+			padding-bottom: 6px;
+			color: black;
 		}
-		
+
 		main{
 			border: 1px black solid;
 			background-color: rgba(200,200,255,0.3);
+			width: 700px;
+			margin-left: 10px;
+			padding: 10px;
 		}
-		
+
 		aside{
 			border: 1px black solid;
 			background-color: rgba(200,255,200,0.3);
+			width: 300px;
+			padding: 10px;
 		}
-		
+
+		aside article{
+			margin-top: 20px;
+		}
+
 		body article {
 			background-color: rgba(200,200,200,0.6);
 		}
-		
+
 		header {
+			margin-left: 10px;
+			margin-right: 10px;
+			padding-top: 30px;
 		}
-		
+
+		h1{
+			margin: 0;
+		}
+
+		aside h1{
+			padding-top: 2px;
+		}
+
+		main article{
+			margin-top: 20px;
+		}
+
+		.center{
+			text-align: center;
+		}
+
 		footer {
 			background-color: rgba(255,255,200,0.3);
+			text-align: center;
+			font-weight: bolder;
+			margin-left: 10px;
+			margin-right: 10px;
+			margin-bottom: 10px;
 		}
-	
